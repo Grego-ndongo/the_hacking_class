@@ -11,6 +11,10 @@ Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un 
 
 ## How does it work ?
 
+Pour info, il y a deux modèles Course et Student: 
+* Course a deux attributs (title et description),
+* Student a un attribut (name) et est associé à Course.
+
 1. Git clone https://github.com/Grego-ndongo/the_hacking_class.git
 
 2. Fais un bundle install
