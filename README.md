@@ -1,13 +1,15 @@
-# README
 
-Project Title - THE HACKING CLASS
-Hello! Voici notre Hacking Class !
+## Project Title - SQL/Hacking_Class
 
-Start up Project
+Holà Correctorios! Voici notre Hacking Class !  
 
-Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.
 
-Comment ça marche ?
+## Start up Project 
+
+Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.  
+
+
+## How does it work ?
 
 1. Git clone https://github.com/Grego-ndongo/the_hacking_class.git
 
@@ -15,15 +17,26 @@ Comment ça marche ?
 
 3. Lance le fichier seed dans ton terminal en entrant les commandes suivantes dans le terminal:
 
-- rails db:migrate
-- rails db:seed 
+```
+rails db:migrate
+```
+
+```
+rails db:seed
+```
 
 4. Tu peux lire le résultat en ouvrant ta console et en lançant un 'tp Student.all'
 
+Et à toi la lecture de la base de données! :smile:  
 
-Built by :
-Viviane de Petigny
-Bastien Hiel
-Grégoria Ndongozi
-Mélanie Nguon
-Alexis Janin
+
+#### Built with :heart: by : 
+
+Viviane de Petigny  
+Bastien Hiel  
+Gregoria Ndongozi  
+Mélanie Nguon  
+Alexis Janin  
+
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/9/96/TLC_Logo.jpg)
