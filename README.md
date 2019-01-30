@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project Title - THE HACKING CLASS
+Hello! Voici notre Hacking Class !
 
-Things you may want to cover:
+Start up Project
 
-* Ruby version
+Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.
 
-* System dependencies
+Comment ça marche ?
 
-* Configuration
+1. Git clone https://github.com/Grego-ndongo/the_hacking_class.git
 
-* Database creation
+2. Fais un bundle install
 
-* Database initialization
+3. Lance le fichier seed dans ton terminal en entrant les commandes suivantes dans le terminal:
 
-* How to run the test suite
+- rails db:migrate
+- rails db:seed 
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Tu peux lire le résultat en ouvrant ta console et en lançant un 'tp Student.all'
 
-* Deployment instructions
 
-* ...
+Built by :
+Viviane de Petigny
+Bastien Hiel
+Grégoria Ndongozi
+Mélanie Nguon
+Alexis Janin
