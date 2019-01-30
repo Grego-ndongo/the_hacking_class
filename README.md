@@ -15,23 +15,36 @@ Pour info, il y a deux modèles Course et Student:
 * Course a deux attributs (title et description),
 * Student a un attribut (name) et est associé à Course.
 
-1. Git clone https://github.com/Grego-ndongo/the_hacking_class.git
+Comment runner notre magnifique application :  
 
-2. Fais un bundle install
+1/ Clone le git Git clone https://github.com/Grego-ndongo/the_hacking_class.git
 
-3. Lance le fichier seed dans ton terminal en entrant les commandes suivantes dans le terminal:
+```
+git clone https://github.com/Grego-ndongo/the_hacking_class.git
+
+```
+
+2/ Ajoute les gems : fais un Bundle Install  
+
+
+```
+bundle install
+```
+
+3/ Lance les associations : rails db:migrate  
 
 ```
 rails db:migrate
 ```
 
+4/ Lance le fichier seed : rails db:seed  
+
 ```
 rails db:seed
 ```
 
-4. Tu peux lire le résultat en ouvrant ta console et en lançant un 'tp Student.all'
+5/ Amuse-toi avec la console ! :smile:  
 
-Et à toi la lecture de la base de données! :smile:  
 
 
 #### Built with :heart: by : 
